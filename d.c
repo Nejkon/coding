@@ -9,15 +9,16 @@ int main(void)
   
 sis();
   
-  printf("Число %o в десятичной системе равняется %d\n", ses, ses);
-  
 return 0;
-  }
-void sis(void)
 
+}
+  
+  
+void sis(void)
 {
     int ses;
-  scanf("%o", &ses);
+  scanf("%d", &ses);
+  printf("Число %o в десятичной системе равняется %d\n", ses, ses);
 }
 
 
